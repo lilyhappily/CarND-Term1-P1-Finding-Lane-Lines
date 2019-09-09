@@ -18,8 +18,7 @@ The goals / steps of this project are the following:
 - In order to draw a single left line and right line on the original images,  I added a new function called `extrapolate_lines`. Lines from  Hough Transform and original image were the inputs and image drawn left and right lane lines was the output. I separated line segments by their slope `((y2-y1)/(x2-x1))` to decide which segments are part of the left line vs. the right line.  Then, I average the position of each of the lines and extrapolate to the top and bottom of the line.
 
 
-
-![whiteCarLaneSwitch](E:\udacity_term1\CarND-LaneLines-P1-master\test_images_output\whiteCarLaneSwitch.jpg)
+<div align=center><img src="./test_images_output/whiteCarLaneSwitch.jpg" width = "700" height = "400" alt="result dispaly.gif" align=center /></div>
 
 ### 2. Potential Shortcomings 
 
